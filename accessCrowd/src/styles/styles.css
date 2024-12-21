@@ -1,0 +1,132 @@
+body,
+h1,
+h2,
+p,
+ul,
+li,
+a {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body Styling */
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background-color: #000;
+  color: #fff;
+}
+
+/* Header Styling */
+.header {
+  background-color: #000;
+  padding: 1rem;
+  border-bottom: 4px solid #ffd700; /* High contrast yellow */
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-size: 1.5rem;
+  color: #ffd700;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #fff;
+  background-color: #444;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+}
+
+.nav-links a:hover {
+  background-color: #ffd700;
+  color: #000;
+}
+
+/* Hero Section Styling */
+.hero-section {
+  text-align: center;
+  padding: 3rem 1rem;
+  background-color: #222;
+  border-bottom: 4px solid #ffd700;
+}
+
+.hero-title {
+  font-size: 2.5rem;
+  color: #ffd700;
+  margin-bottom: 1rem;
+}
+
+.hero-description {
+  font-size: 1.2rem;
+  margin-bottom: 1.5rem;
+}
+
+.hero-button {
+  text-decoration: none;
+  background-color: #ffd700;
+  color: #000;
+  padding: 0.8rem 1.5rem;
+  border-radius: 5px;
+  font-size: 1.1rem;
+  font-weight: bold;
+}
+
+.hero-button:hover {
+  background-color: #000;
+  color: #ffd700;
+  border: 2px solid #ffd700;
+}
+
+/* Feedback List Section */
+.feedback-list-section {
+  padding: 2rem 1rem;
+  background-color: #000;
+}
+
+.section-title {
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+  text-align: center;
+  color: #ffd700;
+}
+
+.feedback-list {
+  list-style: none;
+  padding: 0;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.feedback-item {
+  background-color: #333;
+  color: #fff;
+  padding: 1rem;
+  margin-bottom: 0.5rem;
+  border-left: 5px solid #ffd700;
+}
+
+/* Footer Styling */
+.footer {
+  text-align: center;
+  padding: 1rem;
+  background-color: #000;
+  border-top: 4px solid #ffd700;
+}
+
+.footer p {
+  font-size: 0.9rem;
+  color: #fff;
+}

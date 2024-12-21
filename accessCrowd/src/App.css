@@ -1,0 +1,17 @@
+/* Custom styles for specific components (optional) */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+/* Example: Add some custom hover animations */
+button:hover {
+  transition: all 0.3s ease-in-out;
+  transform: scale(1.05);
+}
+
+/* Example: Center content vertically for a full-height container */
+.full-height-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}

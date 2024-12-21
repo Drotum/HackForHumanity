@@ -1,0 +1,79 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+/* General Styles */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #242424;
+    color: white;
+  }
+  
+  /* Hero Section */
+  .hero-section {
+    text-align: center;
+    padding: 4rem 1rem;
+    background-color: #1a1a1a;
+    border-bottom: 4px solid #ffc107;
+  }
+  
+  .hero-title {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #ffc107;
+    margin-bottom: 1rem;
+  }
+  
+  .hero-subtitle {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+  }
+  
+  .hero-button {
+    display: inline-block;
+    padding: 0.75rem 1.5rem;
+    font-weight: bold;
+    color: black;
+    background-color: #ffc107;
+    border: 2px solid #ffc107;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  .hero-button:hover {
+    background-color: black;
+    color: #ffc107;
+  }
+  
+  /* Feedback Section */
+  .feedback-section {
+    padding: 3rem 1rem;
+    text-align: center;
+    background-color: black;
+  }
+  
+  .feedback-title {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #ffc107;
+    margin-bottom: 2rem;
+  }
+  
+  .feedback-list {
+    list-style: none;
+    padding: 0;
+    margin: 0 auto;
+    max-width: 600px;
+  }
+  
+  .feedback-item {
+    background-color: #333333;
+    color: white;
+    padding: 1rem;
+    margin: 0.5rem 0;
+    border-left: 4px solid #ffc107;
+    border-radius: 4px;
+    text-align: left;
+  }
+  
